@@ -22,10 +22,6 @@ Funktionen:
 
 # Systemanforderungen
 
-## Betriebssystem
-
-- Windows 10 / Windows 11
-
 
 ## Python
 
@@ -83,36 +79,19 @@ Benötigte Spalten:
 
 ## 1. Harvest
 
-Der OAI-Harvester lädt neue Datensätze.
-
-Ergebnis:
-## schlagworte.xlsx
-
-Benötigte Spalten:
-
-| Begriff | Gewichtung |
-|-|-|
-| künstliche intelligenz | 5 |
-| datenbank | 2 |
-
-
----
-
-# Ablauf
-
-
-## 1. Harvest
-
-Der OAI-Harvester lädt neue Datensätze.
-
+Der OAI-Harvester lädt neue Datensätze im gewählten Zeitraum.
 Ergebnis:
 data/DNB_OAI.xlsx
+
+Abfrage mit idn.txt um schon einmal bearbeitete Datensätze rauszufiltern.
 
 ## 2. Keyword Analyse
 
 Die Datei:
 data/schlagworte.xlsx
 wird geladen.
+
+Inhaltsverzeichnise der IDN aus DNB_OAI.xlsx werden geöffnet und mit den Stichwörtern abgeglichen.
 
 Die Treffer werden gespeichert:
 data/ergebnis.xlsx
