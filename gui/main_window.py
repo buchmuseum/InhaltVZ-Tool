@@ -16,13 +16,14 @@ from __future__ import annotations
 import logging
 import threading
 import tkinter as tk
-
+import platform
+from datetime import datetime
 from tkinter import ttk, messagebox
 
 
 from pathlib import Path
 
-
+from config.version import VERSION
 from core.harvest import OAIHarvester
 from core.keyword import KeywordEngine
 from core.sru import SRUClient
@@ -60,11 +61,11 @@ class MainWindow:
         self.root = root
 
         self.root.title(
-            "DNB Tool"
+            "InhaltsVZ-Tool"
         )
 
         self.root.geometry(
-            "900x650"
+            "900x750"
         )
 
 
@@ -95,6 +96,8 @@ class MainWindow:
         self.sru_subtitle = tk.BooleanVar()
         self.sru_author = tk.BooleanVar()
         self.sru_publisher = tk.BooleanVar()
+        self.root.title(f"InhaltsVZ-Tool {VERSION}"
+)
 
 
 
@@ -116,7 +119,26 @@ class MainWindow:
         main_frame.columnconfigure(0, weight=1)
         main_frame.columnconfigure(1, weight=0)
 
+# =========================
+# Info Button
+# =========================
+        header = ttk.Frame(main_frame)
+        header.grid(row=0, column=0, columnspan=2, sticky="ew")
 
+        header.columnconfigure(0, weight=1)
+
+        ttk.Label(
+        header,
+        text=f"InhaltsVZ-Tool {VERSION}",
+        font=("Segoe UI", 12, "bold")
+    ).grid(row=0, column=0, sticky="w")
+
+        ttk.Button(
+            header,
+            text="ℹ",
+            width=3,
+            command=self.show_about
+        ).grid(row=0, column=1, sticky="e")
 
 # =========================
 # OAI HARVEST
@@ -127,16 +149,15 @@ class MainWindow:
             main_frame,
             text="OAI HARVEST",
             font=("Segoe UI", 10, "bold")
-        ).grid(row=0, column=0, columnspan=2, pady=(0,10))
+        ).grid(row=1, column=0, columnspan=2, pady=(0,10))
 
         harvest_text = (
                 "1. Start- und Enddatum eingeben\n"
                 "2. Harvest starten“ anklicken.\n" 
-                " - Es werden alle Datensätze des TOC-Sets (Inhaltsverzeichnisse) innerhalb des gewählten Zeitraums ermittelt\n"
+                "   Es werden alle Datensätze des TOC-Sets (Inhaltsverzeichnisse) innerhalb des gewählten Zeitraums ermittelt\n"
                 "3. Abfrage idn.txt\n"
-                " - Nach Abschluss können die ermittelten IDNs mit der Datei idn.txt abgeglichen werden.\n"
-                "   Bereits bekannte IDNs werden entfernt, neue IDNs in die idn.txt übernommen\n" 
-                "   und für die weitere Verarbeitung gespeichert\n"
+                "   Nach Abschluss können die ermittelten IDNs mit der Datei idn.txt abgeglichen werden.\n"
+                "   Bereits bekannte IDNs werden entfernt, neue IDNs in die idn.txt gespeichert.\n" 
      
         )
 
@@ -145,11 +166,11 @@ class MainWindow:
             main_frame,
             text=harvest_text,
             justify="left"
-        ).grid(row=1, column=0, sticky="w", padx=(0,40))
+        ).grid(row=2, column=0, sticky="w", padx=(0,40))
 
 
         harvest_input = ttk.Frame(main_frame)
-        harvest_input.grid(row=1, column=1, sticky="nw")
+        harvest_input.grid(row=2, column=1, sticky="nw")
 
 
         ttk.Label(
@@ -194,7 +215,7 @@ class MainWindow:
             main_frame,
             text="Keyword Analyse",
             font=("Segoe UI", 10, "bold")
-        ).grid(row=2, column=0, columnspan=2, pady=(20,5))
+        ).grid(row=3, column=0, columnspan=2, pady=(20,5))
 
 
         keyword_text = (
@@ -209,11 +230,11 @@ class MainWindow:
             main_frame,
             text=keyword_text,
             justify="left"
-        ).grid(row=3, column=0, sticky="w", padx=(0,40))
+        ).grid(row=4, column=0, sticky="w", padx=(0,40))
 
 
         keyword_input = ttk.Frame(main_frame)
-        keyword_input.grid(row=3, column=1, sticky="nw")
+        keyword_input.grid(row=4, column=1, sticky="nw")
 
 
         self.minimum_score = ttk.Entry(keyword_input)
@@ -238,7 +259,7 @@ class MainWindow:
             main_frame,
             text="SRU Update",
             font=("Segoe UI", 10, "bold")
-        ).grid(row=4, column=0, columnspan=2, pady=(20,5))
+        ).grid(row=5, column=0, columnspan=2, pady=(20,5))
 
 
         sru_text = (
@@ -252,11 +273,11 @@ class MainWindow:
             main_frame,
             text=sru_text,
             justify="left"
-        ).grid(row=5, column=0, sticky="w", padx=(0,40))
+        ).grid(row=6, column=0, sticky="w", padx=(0,40))
 
 
         sru_input = ttk.Frame(main_frame)
-        sru_input.grid(row=5, column=1, sticky="nw")
+        sru_input.grid(row=6, column=1, sticky="nw")
 
 
         ttk.Checkbutton(
@@ -292,17 +313,6 @@ class MainWindow:
             text="SRU Update starten",
             command=self.start_sru
         ).pack(pady=5)
-
-        self.progress = ttk.Progressbar(
-            self.root
-        )
-
-        self.progress.pack(
-            fill="x",
-            padx=10,
-            pady=10
-        )
-
 
 
         self.status = tk.Text(
@@ -353,8 +363,28 @@ class MainWindow:
 
     def start_harvest(self):
 
+        start = self.start_date.get().strip()
+        ende = self.end_date.get().strip()
+
+        # Datum prüfen
+        try:
+            datetime.strptime(start, "%Y-%m-%d")
+            datetime.strptime(ende, "%Y-%m-%d")
+
+        except ValueError:
+            messagebox.showerror(
+                "Ungültiges Datum",
+                "Bitte Start- und Enddatum im Format YYYY-MM-DD eingeben.\n\n"
+                "Beispiel: 2026-07-23"
+            )
+            return
+
+
         self.cancel_event.clear()
 
+        self.log(
+            "Harvest gestartet..."
+        )
 
         thread = threading.Thread(
             target=self.harvest_worker,
@@ -603,4 +633,25 @@ class MainWindow:
 
         self.log(
             "Abbruch angefordert"
+        )
+    # -------------------------------------------------
+    # Infobox Text
+    # -------------------------------------------------
+
+    def show_about(self):
+
+        messagebox.showinfo(
+            "Über InhaltsVZ-Tool",
+            f"""InhaltsVZ-Tool
+
+    Version: {VERSION}
+
+    Entwickelt von:
+    Isabell Sickert
+
+    Deutsche Nationalbibliothek
+    Deutsches Buch- und Schriftmuseum
+
+    Python: {platform.python_version()}
+    """
         )
