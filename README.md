@@ -1,13 +1,15 @@
 
-# DNB Tool
+# InhaltsVZ-Tool
 
-Version 2.0.0
+Version 1.0.0
 
 
 ## Zweck
 
-Das DNB Tool unterstützt die Verarbeitung von
-bibliografischen Daten der Deutschen Nationalbibliothek.
+Daa InhaltsVZ-Tool unterstützt die Verarbeitung von
+bibliografischen Daten der Deutschen Nationalbibliothek. Es bildet eine Ergebnissmenge von Datensätzen mit
+Inhaltsverzeichnissen. Danach durchsucht es diese nach festgelegten Stichwörtern und gibt anhand einer Gewichtung 
+Treffer in Excel aus. 
 
 Funktionen:
 
@@ -181,6 +183,7 @@ DNB_Tool/
 
 ├── config/
 │   └── settings.py
+│   └── version.py
 
 ├── core/
 │   ├── harvest.py
@@ -199,6 +202,4 @@ DNB_Tool/
 ├── gui/
 │   └── main_window.py
 
-└── tests/
-    └── test_idn.py
 
