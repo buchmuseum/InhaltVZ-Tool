@@ -65,8 +65,7 @@ Beispiel:
 123456789
 987654321
 
-da idn.txt leider zu groß für Github ist, gibt es die gefilterte Version idn_gefiltert.txt mit den "aktuellsten" 7 Millionen Datensätzen. Stand 14.07.2026
-Für die Verwendung bitte in idn.txt unbenennen.
+idn.txt.gz bitte entpacken. Diese enthält den Stand 14.Juli 2026
 
 ## schlagworte.xlsx
 
