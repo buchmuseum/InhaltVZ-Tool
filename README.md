@@ -159,9 +159,6 @@ Dateien / Netzwerk
 
 ---
 
-# Lizenz
-
-Interne Nutzung.
 
 5. Projektstand jetzt
 
@@ -202,3 +199,4 @@ DNB_Tool/
 │   └── main_window.py
 
 
+Hinweis: Das Tool wird ohne Gewähr zur Verfügung gestellt. Die Nutzung erfolgt auf eigene Verantwortung. Bitte prüfen Sie die erzeugten Ergebnisse vor einer weiteren Verwendung.

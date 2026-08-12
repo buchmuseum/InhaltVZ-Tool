@@ -18662,3 +18662,425 @@ requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://d-nb
 2026-07-31 10:08:27,730 | INFO | infrastructure.storage | Backup erstellt: C:\Users\sickerti\Projekte\InhaltVZ-Tool\data\DNB_OAI_20260731_100827.bak
 2026-07-31 10:08:27,756 | INFO | infrastructure.storage | 0 IDNs gespeichert
 2026-08-12 10:12:08,836 | INFO | root | Logging gestartet
+2026-08-12 11:04:56,893 | INFO | root | Logging gestartet
+2026-08-12 11:06:41,690 | INFO | core.harvest | OAI Harvest gestartet 2026-07-15 - 2026-07-18
+2026-08-12 11:06:41,690 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&from=2026-07-15T00:00:00Z&until=2026-07-18T23:59:59Z&metadataPrefix=oai_dc&set=dnb:toc
+2026-08-12 11:06:45,473 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=f-ZbeNotjLENgDAMBCeJN0CyTWzHDMAaiCQUNKRhf5EA193r9GRJhUXcMXpo-7nVAvXKy90KrCAIZCmizYqD1yI5-QBCL8c0LhTlDz4jl5m1HyDjkaPwVEWBgM3sAXLzGo0
+2026-08-12 11:06:45,891 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=f0FpeNotjLENgDAMBCfBGyC9TWzHDMAaCAgFDWnYXxDgunudnj2bimoEUnR1OeayUTnX8aobTcQAsecEHwyN1xIHR4O6J21T-zDoH3zGoYOYgiDY16TSFzViEne_AYqfGrk
+2026-08-12 11:06:46,292 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=f6NfeNotjLENgDAMBCeJN0CyTWzHDMAaiCQUNKRhf5EA193r9GRJhUXcMXpo-7nVAvXKy90KrECCQJYi2qw4eC2Skw8g9HRM40NR_-AzcplZ-wEyHjkKT1UUCNjMHox8Gr8
+2026-08-12 11:06:46,747 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=f--ReNotjLENgDAMBCfBGyC9TWzHDMAaCAgFDWnYXxDgunudnj2bimoEUnR1OeayUTnX8aobTSQAsecEHwyN1xIHR4O6J21T-zDYH3zGoYOYgiDY16TSFzViEne_AYshGrs
+2026-08-12 11:06:47,201 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=f24EeNotjLENgDAMBCeJN0CyTWzHDMAaiCQUNKRhf5EA193r9GRJhUXcMXpo-7nVAvXKy90KrMCCQJYi2qw4eC2Skw8g9HRM40PR_uAzcplZ-wEyHjkKT1UUCNjMHoz-GsE
+2026-08-12 11:06:47,643 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=f3yleNotjLENgDAMBCfBGyC9ndjGDMAaiBAKGmjYXxDgunudnn0wFdUI5OjOZZ_rSvUo43WuNFECiH3I8GRovJY5OBrUPWmb2ofB_-AzDk1iCoJgK1mlr2rEJO5-A4ujGr0
+2026-08-12 11:06:48,106 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=gLHFeNotjLENgDAMBCfBGyDZTmzHDMAaiCQUNKRhf5EA193r9GRJhUXcMfrU9nOrBeqVl7sVWCEIAlmKaEFx8FokJx_A1NMxjQ_F9AefkUtg7QfIeOQoPFdRIGAzewCNgBrD
+2026-08-12 11:06:48,473 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=f7vKeNotjLsNhUAMBCvBHSCtjT9nCqCNpwdHQAIJ_QsOmGxWo-UobmKWCc3u-G-_ulDd5_E8FppIAeIoihgcjceUk7NB3Z22qX04yhe8xmmDuIEgWGc16as5MUlEXIwlGr8
+2026-08-12 11:06:48,907 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=f3QVeNotjLsNgDAMBSfBGyDZxp-YAVgDkYSChjTsLwhw3T2dHnkyZdUIlBjadqy1QD3zfLUCC4gikCdBnww7rwkFRQeGJ-1T_zBMf_AZhU5szwEy7lmUx6oGBOzuN43YGsQ
+2026-08-12 11:06:49,341 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=f2YfeNotjLENgDAMBCfBGyC9TWzHDMAaCAgFDWnYXxDgunudnj2bimoEUnR1OeayUTnX8aobTaQAsecEHwyN1xIHR4O6J21T-zDEH3zGoYOYgiDY16TSFzViEne_AYynGsE
+2026-08-12 11:06:49,802 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=fxsmeNotjLENgDAMBCeJN0CyTWzHDMAaiCQUNKRhf5EA193r9GRJhUXcMXpo-7nVAvXKy90KrCCCQJYi2qw4eC2Skw8g9HRM40PR_-AzcplZ-wEyHjkKT1UUCNjMHo5aGsY
+2026-08-12 11:06:50,304 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=f0ANeNo1jMENgDAMAychGyA5oUkaBmANBJQHH_phf0ER-OWzTmbPpqIagRRdXY65bFTOdbzqRhMZQOw5wYen4qPEwdFC3aO2qX0Y_8JL4NBBTEEQ7GtS6YsaMYm734uwGro
+2026-08-12 11:06:50,585 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=f_tkeNo1jLENgDAMBCeJN0CyTWzHDMAaiCQUNKRhf4GRuO5epycrKizijtnT2M-tN-hXXe7RYAUVBLKS0WbF4LNMTh5AetOY4kPpDz5Dcpk5DpDxqFl46qJAwGb2AI1jGr8
+2026-08-12 11:06:50,810 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=f5ldeNo1jLENgDAMBCfBGyC9TWzHDMAaiCQUNNCwvyBIXHev07NnU1GNQIrh2o61VWpnme-r0kIOEHtO8MnQ-SxxcHRoeNM-9Q_jP_gMHDqJKQiCvSSVsakRk7j7A4wIGrs
+2026-08-12 11:06:51,067 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=gP-UeNo1jEEOgCAMBF9Cf2DSFtpaH-A3jIAHL3Lx_xFInNtsJku2qrCIOyYP7byPWqA-eXtbgR1MEMjWhBYVB9MSOfkAQk_HND6U_mAakktk7QfIeOUkvFRRIGAz-wCNuxrA
+2026-08-12 11:06:51,346 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=f-YQeNotjLENgDAMBCfBGyC9TWzHDMAaCAgFDWnYX5CI6-51evZsKqoRSDHU7VrLQeXe56cetFAGiD0n-GRodEscHA0avrRN7cOY_6AbOHQSUxAE555UxqJGTOLuL4yKGr0
+2026-08-12 11:06:51,657 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=gCvHeNotjEEOgCAMBF9if2DSFtpSH-A3jIAHL3Lx_xGIc5vNZMmSCou4Y_SlnfdRC9Qnb28rsEMSBLIU0YLiYFokJx_A0tMxjQ8l-oNpSC6BtR8g45Wj8FpFgYDN7AOOPRrC
+2026-08-12 11:06:51,969 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=f_yWeNotjLENgDAMBCfBGyC9TWzHDMAaiCQUNNCwvyCI6-51evZsKqoRSDFc27G2Su0s831VWigAYs8JPhk6nyUOjg4Nb9qn_mHMf_AZOHQSUxAEe0kqY1MjJnH3B4ziGr4
+2026-08-12 11:06:52,234 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=gKPseNotjEEOgCAMBF9Cf2DSFtpaH-A3jIAHL3Lx_xGIc5vNZMlWFRZxx-ShnfdRC9Qnb28rsIMLAtma0KLiYFoiJx9A6OmYxocS_8E0JJfI2g-Q8cpJeKmiQMBm9gGOvxrE
+2026-08-12 11:06:55,196 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=f-VdeNo1jLENgDAMBCfBGyC9TWzHDMAaCAgFDWnYXxAE393rdOzZVFQjkKKryzGXjcq5jlfdaCIGQOw5wQcDfkocHG3UPW67WsRYP-ElcOggpiAI9jWp9EWNmMTdb6QCGuo
+2026-08-12 11:06:55,471 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=gOSkeNotjEEOgCAMBF9Cf2DSFtpaH-A3jIAHL3Lx_xGIc5vNZMlWFRZxx-ShnfdRC9Qnb28rsAOhIJCtCS0qDqYlcvIBhN6OaZwoyR9MQ3KJrP0AGa-chJcqCgRsZh-ltRrv
+2026-08-12 11:06:55,787 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=g0lSeNotjLENwzAMBCcxNwjwT4ukmAGyhmFJLtzETfZHIiPX3ePwjOqmZpkouVz7uY0u492en6vLS0hAGLUgVsfktsJkTmT5tXOaJ077B7eBaau6QaA4WjF9DHOhaER8AaRaGus
+2026-08-12 11:06:56,106 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=gLwqeNotjLENgDAMBCfBGyD5TWxjBmANRBIKGmjYX5CI6-51evhsKqoRnGK493OrheqVl-cutBKgTPA5sU_GjW4JgWjQ8LVtaicG-4NujNBJ7Dtg4SMnlbGqEUjc_QWmNxrx
+2026-08-12 11:06:56,490 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=gFM7eNotjLENgDAMBCfBGyC9TWzHDMAaiCQUNNCwvyCI6-51evZsKqoRSDFc27G2Su0s831VWogFIPac4JOh81ni4OjQ8LZ96ifG9gefgUMnMQVBsJekMjY1YhJ3fwCk3Brt
+2026-08-12 11:06:56,887 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=gAuYeNotjEEOgCAMBF9Cf2DSFtpaH-A3jIAHL3Lx_xGIc5vNZMlWFRZxx-ShnfdRC9Qnb28rsAOxIJCtCS0qDqYlcvIBhN6OaZwo6R9MQ3KJrP0AGa-chJcqCgRsZh-mjxry
+2026-08-12 11:06:57,283 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=gLEQeNotjLENgDAMBCfBGyC9ndiOGYA1EBAKGtKwvyCI6-51evZiKqoRyDG09VzqTvXaprvtNBMngNhLhidD57PMwdGh4W371E-M_Q8-A4cmMQVBcGxZZaxqxCTu_gClXhrv
+2026-08-12 11:06:57,654 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=gP93eNotjEEOgCAMBF9if2DSFtpSH-A3jIAHL3Lx_xGIc5vNZMmSCou4Y_SlnfdRC9Qnb28rsAMFQSBLES0oDqZFcvIBLL0d0zhRsj-YhuQSWPsBMl45Cq9VFAjYzD6nERr0
+2026-08-12 11:06:58,140 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=f2G0eNotjLkNgEAMBCvBHSCtjZ8zBdAGAo6ABBL6FxxislmNlqO4iVkmNLtrOea6UT3X8b42mogVII6iiMHR-Ew5ORvUvW2b2olz-YPPwGmDuIEg2Fc16as5MUlEPKXgGvE
+2026-08-12 11:07:01,737 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=gAz_eNotjLsNgDAMBSeJN0CyjT-YAVgDkYSChjTsL0jEdfd0euSLKatGoERqx7XXAvXO69MKbECiCOSLoM-GnWFCQdGB9LV96ifG9AfDkEJntu8AGc8sylNVAwJ29xemmBrw
+2026-08-12 11:07:02,120 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=gP3DeNotjLENgDAMBCfBGyC9TWzHDMAaiCQUNNCwvyCI6-51evZsKqoRSDFc27G2Su0s831VWogVIPac4JOh81ni4OjQ8LZ96icm8gefgUMnMQVBsJekMjY1YhJ3fwClZxrt
+2026-08-12 11:07:02,534 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=gLUleNotjEEOgCAMBF9Cf2DSFtpaH-A3jIAHL3Lx_xGIc5vNZMlWFRZxx-ShnfdRC9Qnb28rsAOJIJCtCS0qDqYlcvIBhN6OaZwo8x9MQ3KJrP0AGa-chJcqCgRsZh-nGhry
+2026-08-12 11:07:02,941 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=gBlZeNotjMENgDAMAydpNkByQpMQBmANRFsefODD_oIi_PJZJ7NPpqIagRzp2o61VWpnme-r0kJsALFPGT6-FT9lDo4eSq_bp35iIr_wETh0FFMQBHvJKkNTIyZx9welvxru
+2026-08-12 11:07:03,623 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=f8zPeNotjLsNgDAMBSfBGyDZjj-YAVgDkYSCBhr2Fxhx3T2dHvlkyqoRKDFc27H2Bv2s8301WIBMEcgnQS-GyWdCQZHA8LY55Ylx-YPPkEIL5wEy7lWUx64GBOzuD6ecGvQ
+2026-08-12 11:07:04,082 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=go3meNotjMENgDAMAychGyA5aZM0DMAaCCgPPvTD_oIi_LB01snsxVRUI5BjaOu51J3qtU1322kmduCtkuHJ0PNR5uDooeF1-9RPTNIvfAQOTWIKguDYsspY1YhJ3P0BpkEa8A
+2026-08-12 11:07:04,483 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=gilteNotjLsNgDAMRCfBGyDZjj8xA7AGAkJBQxr2F0nEFSe909ORZ1NWjUCJqe73Vk4oz7G89YQVyBVbZUFPhj2DhIKiB6bm9qmfGMsvDEIKTWztABmvQ5TnogYE7O4fqB4a9g
+2026-08-12 11:07:04,762 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=fzU6eNotjLkNgEAMBCvBHSCtjZ8zBdAGAo6ABBL6FxxislmNlqO4iVkmNLtrOea6UT3X8b42mogLQBxFEYOj8Zlycjaoe9s2tRMX_YPPwGmDuIEg2Fc16as5MUlEPKbDGvI
+2026-08-12 11:07:05,177 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=gBcCeNotjEEOgCAMBF9if2DSFtpSH-A3jIAHL3Lx_xGIc5vNZMmSCou4Y_SlnfdRC9Qnb28rsAMlQSBLES0oDqZFcvIBLL0d0zhRlj-YhuQSWPsBMl45Cq9VFAjYzD6ooBr4
+2026-08-12 11:07:08,170 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=gFgheNotjLENgDAMBCfBGyC9TWzHDMAaCAgFDWnYX5CI6-51evZsKqoRSDHU7VrLQeXe56cetBAHQOw5wSdDo1vi4GjQ8LVtaicm-Q-6gUMnMQVBcO5JZSxqxCTu_gKnwxr3
+2026-08-12 11:07:08,584 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=gr9deNotjEEOgCAMBF9if2DSFtpSH-A3jIAHL3Lx_xGIc5vN7pIlFRZxx-hLO--jFqhP3t5WYAdyQSBLES0oDqZFcvIBLL07onGinP7CNOzjwNoPkPHKUXitokDAZvYBqXYa_A
+2026-08-12 11:07:08,909 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=f92keNo1jLENgDAMBCfBGyC9TWzHDMAaiBAKGmjYXxAE393rdOzZVFQjkKI7l32uK9WjjNe50kQCgNhzgg8G_JQ4ONqoe9x2tYhJ_oSXwKGDmIIg2EpS6asaMYm736UEGu8
+2026-08-12 11:07:09,290 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=gNR5eNotjEEOgCAMBF9Cf2DSFtpaH-A3jIAHL3Lx_xGIc5vNZMlWFRZxx-ShnfdRC9Qnb28rsAOjIJCtCS0qDqYlcvIBhN6OaZwo-x9MQ3KJrP0AGa-chJcqCgRsZh-m4Rr1
+2026-08-12 11:07:09,625 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=gIyXeNotjLENgDAMBCfBGyC9TWzHDMAaiCQUNNCwvyCI6-51evZsKqoRSDFc27G2Su0s831VWkgYIPac4JOh81ni4OjQ8LZ96icm8QefgUMnMQVBsJekMjY1YhJ3fwClhhrx
+2026-08-12 11:07:09,976 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=gEUReNotjEEOgCAMBF9Cf2DSFtpaH-A3jIAHL3Lx_xGIc5vNZMlWFRZxx-ShnfdRC9Qnb28rsAOTIJCtCS0qDqYlcvIBhN6OaZwo-x9MQ3KJrP0AGa-chJcqCgRsZh-nORr2
+2026-08-12 11:07:10,329 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=gHVteNo1jLENgDAMBCfBGyC9ndiOGYA1EBAKGtKwvyBIXHev07MXU1GNQI6hredSd6rXNt1tp5lEAGIvGZ4Mnc8yB0eHhrftUz-x9AefgUOTmIIgOLasMlY1YhJ3fwCkjxrq
+2026-08-12 11:07:10,728 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=gHzHeNo1jEEOgCAMBF9if2DSFtpSH-A3jIAHL3Lx_xFInNtsJkuWVFjEHaMv7byPWqA-eXtbgR2YBYEsRbSgOJgWyckHsPR2TONEwx9MQ3IJrP0AGa8chdcqCgRsZh-mQhrv
+2026-08-12 11:07:11,106 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=gPw9eNotjLENgDAMBCfBGyC9ndiOGYA1EBAKGtKwvyCI6-51evZiKqoRyDG09VzqTvXaprvtNJMkgNhLhidD57PMwdGh4W371E8s8R98Bg5NYgqC4NiyyljViEnc_QGlERrs
+2026-08-12 11:07:14,047 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=gMGGeNotjLsNgDAMBSfBGyD5E9sxA7AGIgkFDWnYXxDEdfd0euTZlFUjMMXU93NrFdpVlrtXWIFFEchzQhfDwWeJgmIA09uOaZyYyB98hhQqbO8BMh4lKc9NDQjY3R-nGBrz
+2026-08-12 11:07:14,471 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=f7rSeNotjLkNgEAMBCvBHSCtfX4wBdAGAo6ABBL6FxxislmNlmNwE7NMaHbXcsx1o3qu431tNJEoQByDIoqj8Zlycjaoe9s2tRMv-gefgdOKuIEg2Fc16as5MUlEPKXnGvA
+2026-08-12 11:07:14,947 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=gB0keNotjLsNgDAMBSfBGyDZjj8xA7AGIgkFDWnYXxDEdfd0euTZlFUjUGLq-7m1Cu0qy90rrMCiCORZ0JPh4DOhoBjA9LZjGieW5A8-QwpNbO8BMh5FlOemBgTs7g-nmhr1
+2026-08-12 11:07:15,354 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=gnEoeNotjLENhEAMBCvBHSCtfbc2_gJoAwH3wSeQ0L_g0E82q9FqTE4jM1FzONff0nZpx_a5zl1mMQKiMVVEcXReq5qaHRmetk_9xAv_wWvQZDEnBIbvVmljo4uKRcQNpmka8g
+2026-08-12 11:07:15,678 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=giUieNotjEEOgCAMBF9if2DSFtpSH-A3jIAHL3Lx_xGIc9vdyZIlFRZxx-hLO--jFqhP3t5WYIe-IJCliBYUBzNFcvIBLN0d1TjRIL8wE5JLYO0HyHjlKLxWUSBgM_sAqBwa9w
+2026-08-12 11:07:15,996 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=gDKmeNotjMENgDAMAychGyA5aZM0DMAaCCgPPvTD_oIi_PJZJ7MXU1GNQI6hredSd6rXNt1tp5nEAGIvGZ7eip8yB0cPDa_bp35iSX_hI3BoElMQBMeWVcaqRkzi7g-mwRrz
+2026-08-12 11:07:16,246 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=f4JgeNo9jLENgDAMBCeJN0CyndiOGYA1EEkoaEjD_oKk4Lp7nZ4sq7CIOyYP_bj2VqHdZX16hQ1YBYEsJ7SoOJiWyMkHEL52TONEZ_IbkkucB8h4liS8NFEgYDN7AaieGvk
+2026-08-12 11:07:16,483 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=f9nSeNo9jLENgDAMBCfBGyC9TWxjBmANRBIKGmjYX5AUXHev07PPpqIagRTDvZ9bLVSvvDx3oZXEAWKfE3wyNLolDo4GDV_bpnZiPfkNHDqJKQiCIyeVsaoRf6fuL6dDGvU
+2026-08-12 11:07:16,635 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=gG_yeNo9jLENgDAMBCfBGyDZTmzHDMAaiCQUNKRhf5Gk4Lt7nY4sqbCIO0Zf2nkftUB98va2AjuwCQJZimhBcWxSJCcfg6W74xoRncpPSC6BtQeQ8cpReK2iQD1q9gGo9hr6
+2026-08-12 11:07:16,835 | INFO | core.harvest | OAI Harvest beendet: 2777 IDNs
+2026-08-12 11:07:16,837 | INFO | infrastructure.storage | Backup erstellt: C:\Users\sickerti\Projekte\InhaltVZ-Tool\data\DNB_OAI_20260812_110716.bak
+2026-08-12 11:07:16,914 | INFO | infrastructure.storage | 2777 IDNs gespeichert
+2026-08-12 11:07:41,888 | INFO | core.idn | IDN Vergleich: 86 neu, 2691 vorhanden
+2026-08-12 11:07:41,985 | INFO | infrastructure.storage | Backup erstellt: C:\Users\sickerti\Projekte\InhaltVZ-Tool\data\DNB_OAI_20260812_110741.bak
+2026-08-12 11:07:42,001 | INFO | infrastructure.storage | 86 IDNs gespeichert
+2026-08-12 11:07:52,756 | INFO | infrastructure.storage | 86 neue IDNs geschrieben
+2026-08-12 11:10:10,889 | INFO | core.keyword_service | Keyword Workflow gestartet
+2026-08-12 11:10:10,976 | INFO | core.keyword_loader | 484 Schlagwörter geladen
+2026-08-12 11:10:10,976 | INFO | infrastructure.http_client | GET https://d-nb.info/1017313857/04/text
+2026-08-12 11:10:11,607 | INFO | infrastructure.http_client | GET https://d-nb.info/1042387591/04/text
+2026-08-12 11:10:11,688 | ERROR | infrastructure.http_client | HTTP Fehler bei https://d-nb.info/1042387591/04/text
+Traceback (most recent call last):
+  File "C:\Users\sickerti\Projekte\InhaltVZ-Tool\infrastructure\http_client.py", line 77, in get
+    response.raise_for_status()
+  File "C:\Program Files\Anaconda3 2023.09-0 64-bit\Lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://d-nb.info/1042387591/04/text
+2026-08-12 11:10:11,702 | ERROR | core.keyword | Keywordanalyse fehlgeschlagen für 1042387591
+Traceback (most recent call last):
+  File "C:\Users\sickerti\Projekte\InhaltVZ-Tool\core\keyword.py", line 136, in analyse_document
+    response = self.http.get(
+               ^^^^^^^^^^^^^^
+  File "C:\Users\sickerti\Projekte\InhaltVZ-Tool\infrastructure\http_client.py", line 77, in get
+    response.raise_for_status()
+  File "C:\Program Files\Anaconda3 2023.09-0 64-bit\Lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://d-nb.info/1042387591/04/text
+2026-08-12 11:10:11,704 | INFO | infrastructure.http_client | GET https://d-nb.info/1042519668/04/text
+2026-08-12 11:10:11,767 | ERROR | infrastructure.http_client | HTTP Fehler bei https://d-nb.info/1042519668/04/text
+Traceback (most recent call last):
+  File "C:\Users\sickerti\Projekte\InhaltVZ-Tool\infrastructure\http_client.py", line 77, in get
+    response.raise_for_status()
+  File "C:\Program Files\Anaconda3 2023.09-0 64-bit\Lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://d-nb.info/1042519668/04/text
+2026-08-12 11:10:11,768 | ERROR | core.keyword | Keywordanalyse fehlgeschlagen für 1042519668
+Traceback (most recent call last):
+  File "C:\Users\sickerti\Projekte\InhaltVZ-Tool\core\keyword.py", line 136, in analyse_document
+    response = self.http.get(
+               ^^^^^^^^^^^^^^
+  File "C:\Users\sickerti\Projekte\InhaltVZ-Tool\infrastructure\http_client.py", line 77, in get
+    response.raise_for_status()
+  File "C:\Program Files\Anaconda3 2023.09-0 64-bit\Lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://d-nb.info/1042519668/04/text
+2026-08-12 11:10:11,769 | INFO | infrastructure.http_client | GET https://d-nb.info/1044000392/04/text
+2026-08-12 11:10:11,825 | ERROR | infrastructure.http_client | HTTP Fehler bei https://d-nb.info/1044000392/04/text
+Traceback (most recent call last):
+  File "C:\Users\sickerti\Projekte\InhaltVZ-Tool\infrastructure\http_client.py", line 77, in get
+    response.raise_for_status()
+  File "C:\Program Files\Anaconda3 2023.09-0 64-bit\Lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://d-nb.info/1044000392/04/text
+2026-08-12 11:10:11,826 | ERROR | core.keyword | Keywordanalyse fehlgeschlagen für 1044000392
+Traceback (most recent call last):
+  File "C:\Users\sickerti\Projekte\InhaltVZ-Tool\core\keyword.py", line 136, in analyse_document
+    response = self.http.get(
+               ^^^^^^^^^^^^^^
+  File "C:\Users\sickerti\Projekte\InhaltVZ-Tool\infrastructure\http_client.py", line 77, in get
+    response.raise_for_status()
+  File "C:\Program Files\Anaconda3 2023.09-0 64-bit\Lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://d-nb.info/1044000392/04/text
+2026-08-12 11:10:11,827 | INFO | infrastructure.http_client | GET https://d-nb.info/1103409778/04/text
+2026-08-12 11:10:11,883 | ERROR | infrastructure.http_client | HTTP Fehler bei https://d-nb.info/1103409778/04/text
+Traceback (most recent call last):
+  File "C:\Users\sickerti\Projekte\InhaltVZ-Tool\infrastructure\http_client.py", line 77, in get
+    response.raise_for_status()
+  File "C:\Program Files\Anaconda3 2023.09-0 64-bit\Lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://d-nb.info/1103409778/04/text
+2026-08-12 11:10:11,884 | ERROR | core.keyword | Keywordanalyse fehlgeschlagen für 1103409778
+Traceback (most recent call last):
+  File "C:\Users\sickerti\Projekte\InhaltVZ-Tool\core\keyword.py", line 136, in analyse_document
+    response = self.http.get(
+               ^^^^^^^^^^^^^^
+  File "C:\Users\sickerti\Projekte\InhaltVZ-Tool\infrastructure\http_client.py", line 77, in get
+    response.raise_for_status()
+  File "C:\Program Files\Anaconda3 2023.09-0 64-bit\Lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://d-nb.info/1103409778/04/text
+2026-08-12 11:10:11,885 | INFO | infrastructure.http_client | GET https://d-nb.info/1173458239/04/text
+2026-08-12 11:10:12,134 | INFO | infrastructure.http_client | GET https://d-nb.info/1185225951/04/text
+2026-08-12 11:10:12,475 | INFO | infrastructure.http_client | GET https://d-nb.info/1185410805/04/text
+2026-08-12 11:10:12,775 | INFO | infrastructure.http_client | GET https://d-nb.info/1196719748/04/text
+2026-08-12 11:10:13,061 | INFO | infrastructure.http_client | GET https://d-nb.info/1226246842/04/text
+2026-08-12 11:10:13,268 | INFO | infrastructure.http_client | GET https://d-nb.info/1239438990/04/text
+2026-08-12 11:10:13,531 | INFO | infrastructure.http_client | GET https://d-nb.info/1239676840/04/text
+2026-08-12 11:10:14,098 | INFO | infrastructure.http_client | GET https://d-nb.info/1239677162/04/text
+2026-08-12 11:10:14,416 | INFO | infrastructure.http_client | GET https://d-nb.info/1244536482/04/text
+2026-08-12 11:10:14,707 | INFO | infrastructure.http_client | GET https://d-nb.info/1244537004/04/text
+2026-08-12 11:10:14,901 | INFO | infrastructure.http_client | GET https://d-nb.info/1246771349/04/text
+2026-08-12 11:10:15,280 | INFO | infrastructure.http_client | GET https://d-nb.info/1339068079/04/text
+2026-08-12 11:10:15,494 | INFO | infrastructure.http_client | GET https://d-nb.info/1360956239/04/text
+2026-08-12 11:10:15,721 | INFO | infrastructure.http_client | GET https://d-nb.info/1360957065/04/text
+2026-08-12 11:10:16,163 | INFO | infrastructure.http_client | GET https://d-nb.info/1366068610/04/text
+2026-08-12 11:10:16,668 | INFO | infrastructure.http_client | GET https://d-nb.info/1370066988/04/text
+2026-08-12 11:10:16,911 | INFO | infrastructure.http_client | GET https://d-nb.info/1372665641/04/text
+2026-08-12 11:10:17,199 | INFO | infrastructure.http_client | GET https://d-nb.info/1374543187/04/text
+2026-08-12 11:10:17,748 | INFO | infrastructure.http_client | GET https://d-nb.info/137866406X/04/text
+2026-08-12 11:10:18,002 | INFO | infrastructure.http_client | GET https://d-nb.info/1379001684/04/text
+2026-08-12 11:10:18,239 | INFO | infrastructure.http_client | GET https://d-nb.info/1379002400/04/text
+2026-08-12 11:10:18,447 | INFO | infrastructure.http_client | GET https://d-nb.info/1379002990/04/text
+2026-08-12 11:10:18,610 | INFO | infrastructure.http_client | GET https://d-nb.info/1380198542/04/text
+2026-08-12 11:10:19,098 | INFO | infrastructure.http_client | GET https://d-nb.info/1380521777/04/text
+2026-08-12 11:10:19,337 | INFO | infrastructure.http_client | GET https://d-nb.info/1380521939/04/text
+2026-08-12 11:10:19,515 | INFO | infrastructure.http_client | GET https://d-nb.info/1380521947/04/text
+2026-08-12 11:10:19,686 | INFO | infrastructure.http_client | GET https://d-nb.info/138052296X/04/text
+2026-08-12 11:10:19,843 | INFO | infrastructure.http_client | GET https://d-nb.info/1380525063/04/text
+2026-08-12 11:10:20,048 | INFO | infrastructure.http_client | GET https://d-nb.info/1380525217/04/text
+2026-08-12 11:10:20,538 | INFO | infrastructure.http_client | GET https://d-nb.info/1380525365/04/text
+2026-08-12 11:10:20,781 | INFO | infrastructure.http_client | GET https://d-nb.info/1380525470/04/text
+2026-08-12 11:10:20,962 | INFO | infrastructure.http_client | GET https://d-nb.info/138069731X/04/text
+2026-08-12 11:10:21,172 | INFO | infrastructure.http_client | GET https://d-nb.info/1381504752/04/text
+2026-08-12 11:10:21,424 | INFO | infrastructure.http_client | GET https://d-nb.info/1384166424/04/text
+2026-08-12 11:10:21,759 | INFO | infrastructure.http_client | GET https://d-nb.info/1384480552/04/text
+2026-08-12 11:10:22,186 | INFO | infrastructure.http_client | GET https://d-nb.info/1384581820/04/text
+2026-08-12 11:10:22,422 | INFO | infrastructure.http_client | GET https://d-nb.info/1384915192/04/text
+2026-08-12 11:10:22,906 | INFO | infrastructure.http_client | GET https://d-nb.info/1385911174/04/text
+2026-08-12 11:10:23,254 | INFO | infrastructure.http_client | GET https://d-nb.info/1386883468/04/text
+2026-08-12 11:10:23,477 | INFO | infrastructure.http_client | GET https://d-nb.info/1389742091/04/text
+2026-08-12 11:10:23,993 | INFO | infrastructure.http_client | GET https://d-nb.info/1390485501/04/text
+2026-08-12 11:10:24,197 | INFO | infrastructure.http_client | GET https://d-nb.info/1391058372/04/text
+2026-08-12 11:10:24,417 | INFO | infrastructure.http_client | GET https://d-nb.info/1392633877/04/text
+2026-08-12 11:10:24,611 | INFO | infrastructure.http_client | GET https://d-nb.info/1395397236/04/text
+2026-08-12 11:10:24,842 | INFO | infrastructure.http_client | GET https://d-nb.info/1395398860/04/text
+2026-08-12 11:10:25,118 | INFO | infrastructure.http_client | GET https://d-nb.info/1395400628/04/text
+2026-08-12 11:10:25,369 | INFO | infrastructure.http_client | GET https://d-nb.info/1395401780/04/text
+2026-08-12 11:10:25,606 | INFO | infrastructure.http_client | GET https://d-nb.info/1395624771/04/text
+2026-08-12 11:10:25,777 | INFO | infrastructure.http_client | GET https://d-nb.info/1395829713/04/text
+2026-08-12 11:10:25,964 | INFO | infrastructure.http_client | GET https://d-nb.info/1396364439/04/text
+2026-08-12 11:10:26,492 | INFO | infrastructure.http_client | GET https://d-nb.info/1396500731/04/text
+2026-08-12 11:10:26,978 | INFO | infrastructure.http_client | GET https://d-nb.info/1397105356/04/text
+2026-08-12 11:10:27,146 | INFO | infrastructure.http_client | GET https://d-nb.info/1397233818/04/text
+2026-08-12 11:10:27,437 | INFO | infrastructure.http_client | GET https://d-nb.info/1397331305/04/text
+2026-08-12 11:10:27,951 | INFO | infrastructure.http_client | GET https://d-nb.info/1397810130/04/text
+2026-08-12 11:10:28,309 | INFO | infrastructure.http_client | GET https://d-nb.info/1397925485/04/text
+2026-08-12 11:10:28,493 | INFO | infrastructure.http_client | GET https://d-nb.info/1398962643/04/text
+2026-08-12 11:10:28,690 | INFO | infrastructure.http_client | GET https://d-nb.info/1400088402/04/text
+2026-08-12 11:10:28,838 | INFO | infrastructure.http_client | GET https://d-nb.info/1400476186/04/text
+2026-08-12 11:10:29,083 | INFO | infrastructure.http_client | GET https://d-nb.info/1400485045/04/text
+2026-08-12 11:10:29,292 | INFO | infrastructure.http_client | GET https://d-nb.info/1401485243/04/text
+2026-08-12 11:10:29,627 | INFO | infrastructure.http_client | GET https://d-nb.info/1401624146/04/text
+2026-08-12 11:10:30,198 | INFO | infrastructure.http_client | GET https://d-nb.info/1402016042/04/text
+2026-08-12 11:10:30,434 | INFO | infrastructure.http_client | GET https://d-nb.info/1402016085/04/text
+2026-08-12 11:10:30,679 | INFO | infrastructure.http_client | GET https://d-nb.info/1402016743/04/text
+2026-08-12 11:10:30,869 | INFO | infrastructure.http_client | GET https://d-nb.info/1402017391/04/text
+2026-08-12 11:10:31,489 | INFO | infrastructure.http_client | GET https://d-nb.info/1402017596/04/text
+2026-08-12 11:10:31,660 | INFO | infrastructure.http_client | GET https://d-nb.info/1402018096/04/text
+2026-08-12 11:10:31,827 | INFO | infrastructure.http_client | GET https://d-nb.info/1402018479/04/text
+2026-08-12 11:10:32,079 | INFO | infrastructure.http_client | GET https://d-nb.info/1402376456/04/text
+2026-08-12 11:10:32,411 | INFO | infrastructure.http_client | GET https://d-nb.info/1402966385/04/text
+2026-08-12 11:10:32,615 | INFO | infrastructure.http_client | GET https://d-nb.info/1403056374/04/text
+2026-08-12 11:10:32,890 | INFO | infrastructure.http_client | GET https://d-nb.info/1403793409/04/text
+2026-08-12 11:10:33,982 | INFO | infrastructure.http_client | GET https://d-nb.info/1406473510/04/text
+2026-08-12 11:10:34,300 | INFO | infrastructure.http_client | GET https://d-nb.info/1406476528/04/text
+2026-08-12 11:10:34,494 | INFO | infrastructure.http_client | GET https://d-nb.info/1406896748/04/text
+2026-08-12 11:10:34,696 | INFO | infrastructure.http_client | GET https://d-nb.info/1406898104/04/text
+2026-08-12 11:10:35,106 | INFO | infrastructure.http_client | GET https://d-nb.info/1406899410/04/text
+2026-08-12 11:10:35,295 | INFO | infrastructure.http_client | GET https://d-nb.info/1406944122/04/text
+2026-08-12 11:10:35,504 | INFO | infrastructure.http_client | GET https://d-nb.info/1407347446/04/text
+2026-08-12 11:10:35,843 | INFO | infrastructure.http_client | GET https://d-nb.info/99537337X/04/text
+2026-08-12 11:10:36,143 | INFO | core.keyword | Keywordanalyse beendet: 0 Treffer
+2026-08-12 11:10:36,146 | INFO | infrastructure.storage | Backup erstellt: C:\Users\sickerti\Projekte\InhaltVZ-Tool\data\ergebnis_20260812_111036.bak
+2026-08-12 11:10:36,169 | INFO | infrastructure.storage | Excel gespeichert: C:\Users\sickerti\Projekte\InhaltVZ-Tool\data\ergebnis.xlsx
+2026-08-12 11:10:36,170 | INFO | core.keyword_service | Keyword Workflow beendet
+2026-08-12 12:58:13,758 | INFO | root | Logging gestartet
+2026-08-12 13:09:17,996 | INFO | core.harvest | OAI Harvest gestartet 2026-07-15 - 2026-07-18
+2026-08-12 13:09:17,996 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&from=2026-07-15T00:00:00Z&until=2026-07-18T23:59:59Z&metadataPrefix=oai_dc&set=dnb:toc
+2026-08-12 13:09:21,023 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=fH-HeNo1jMkNgDAMBCvBHSDZSXyEAmgD5fjwIR_6FziI-c1qtKQmHENmxcjLKOfRG_SrbvdosAMjkFpCjYLOtESZsgPLW_o0L-QPvkMLwkaBICjXVrivnQVcVR51-Br2
+2026-08-12 13:09:21,353 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=fgQzeNotjEEOgCAMBF9if2DSFtqCD_AbBujFi1z8fxR0brOZLFlSCZzFMMjSy3l4A7_qdvcGOxAikKWIFhQH0yJlygNY3nRM80PpD77HxCqJmIBNaiviq4vCUNMHjcUbIw
+2026-08-12 13:09:21,658 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=fjp1eNotjMkNgDAMBCvBHSDZSXyEAmgD5fjwIR_6Fzgwv1mNltSEY8isGHkZ5Tx6g37V7R4NdiBGILWEGgWdaYkyZQeWN_Vpfgj9wfdoQdgoEATl2gr3tbOAq8oDj3gbKA
+2026-08-12 13:09:21,999 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=frnoeNotjEEOgCAMBF9if2DSFtqCD_AbBujFi1z8fxR0brOZLFlSCZzFMMjSy3l4A7_qdvcGOzAikKWIFhQH0yJlygNY3nRM80PpD77HxCqJmIBNaiviq4vCUNMHjh0bJA
+2026-08-12 13:09:22,376 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=fhaMeNotjEEOgCAMBF9if2DSFtqCD_AbBujFi1z8fxR0brOZLFlSCZzFMMjSy3l4A7_qdvcGO7AgkKWIFhQH0yJlygNY3nRM80P5D77HxCqJmIBNaiviq4vCUNMHj_obKg
+2026-08-12 13:09:22,701 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=flwAeNotjEEOgCAMBF9if2DSFtqCD_AbBujFi1z8fxR0brOZLFlSCZzFMMjSy3l4A7_qdvcGOwREIEsRLSgOpkXKlAewvOmY5ofyH3yPiVUSMQGb1FbEVxeFoaYPjp8bJg
+2026-08-12 13:09:23,054 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=foy4eNotjEEOgCAMBF9if2DSFtqCD_AbBujFi1z8fxR0brOZLFlSCZzFMMjSy3l4A7_qdvcGOwRBIEsRLSgOpkXKlAewvOmY5ofyH3yPiVUSMQGb1FbEVxeFoaYPkFIbKw
+2026-08-12 13:09:23,389 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=fjTgeNotjLsNgDAMBSfBGyDZcWwnDMAaKJ-GhjTsL3Dguns6PbKkwiGLIcsyynn0Bv2q2z0a7BARgSxFNFZ0pkXKlB1Y3tSn-aH8B99jCiqJAkEwqa1IX7souJo-jyEbKA
+2026-08-12 13:09:23,746 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=fmQJeNotjEEOgCAMBF9if2DSFtqCD_AbBujFi1z8fxR0brOZLFlSCZzFMMjSy3l4A7_qdvcGO0RBIEsRLSgOpkXKlAewvOmY5oeGP_geE6skYgI2qa2Iry4KQ00fkNQbLQ
+2026-08-12 13:09:24,123 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=fuQueNotjEEOgCAMBF9if2DSFtqCD_AbBujFi1z8fxR0brOZLFlSCZzFMMjSy3l4A7_qdvcGOwgikKWIFhQH0yJlygNY3nRM80PDH3yPiVUSMQGb1FbEVxeFoaYPj3kbKQ
+2026-08-12 13:09:24,526 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=fpeueNotjMkNgDAMBCvBHSDZSdZOKIA2UI4PH_Khf0EC85vVaMWiwrsEY4-l5_NoldpVtrtX2glgEouBzSsPpgVJkga0vOmY5oeGP_geo1NEcULOUGpGWxuUhpo-kVYbLw
+2026-08-12 13:09:24,913 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=f13KeNotjEsOgCAMRE9Cb2DSFtqCB_Aahs_GjWy8fwRlVjOTl0cWVTwnMfTier7OVqHdZX96hQMUEchiQPOj4lqBEqUZcAOd1-fQsIDfGFklEhOwSalZ2tZEYU7TF4_7Gys
+2026-08-12 13:09:25,138 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=fnKgeNoljLsNwCAMBSfBG0TCBtuQAbJGxKdJE5rsr2C47p5ODzUJB8qsPrAb5bl7g_7W8xsNLhD2gJqi1yDeWBYxYzbAzdSm9THjHezHRMIJCYGUayvcj84Cpio_kdgbMQ
+2026-08-12 13:09:25,355 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=fprreNotjEEOgCAMBF9if2DSFtqCD_AbBujFi1z8fxR0brOZLFlSCZzFMMjSy3l4A7_qdvcGOxgikKWIFhQH0yJlygNY3nRM80PlD77HxCqJmIBNaiviq4vCUNMHkH0bLQ
+2026-08-12 13:09:25,583 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=fg9SeNotjMkNgDAMBCvBHSDZSdZOKIA2UI4PH_Khf0EC85vVaMWiwrsEY4-l5_NoldpVtrtX2snAJBYDm1ceTAuSJA1oedMxzQ_FH3yP0SmiOCFnKDWjrQ1KQ00fkjAbMg
+2026-08-12 13:09:25,815 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=fhgreNotjMkNgDAMBCvBHSDZTnyEAmgD5fjwIR_6FyQwv1mNlsxVAicxDLL0fB6tQrvKdvcKOzgikHlEC4qDaZESpQEsbzqm-aHyB9-js4oTE7BJqVna2kRhqOkDkNUbLg
+2026-08-12 13:09:26,084 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=fuiVeNotjMkNgDAMBCvBHSDFSdZ2KIA2UI4PH_Khf0EC85vVaFlNEHyCuoCl5_NoldpVtrtX2sngiNWi0yBuMC1y4jSg5U3HND8Ef_A9mhcYeyavKDWjrQ1CQ1UekogbMw
+2026-08-12 13:09:26,389 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=fskGeNotjEEOgCAMBF9if2DSAm2pD_AbBujFi1z8fxR0brOZLGkWjsFYMfLSy3l4A7_qdvcGOxgikOaEGgUH0xIZ2QCWNx3T_BD5g-8xB-FMgSAo11bYV2eBoSoPkVcbMA
+2026-08-12 13:09:26,653 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=fiUjeNotjLsNgDAMBSfBGyDZTmwnDMAaKJ-GhjTsL3Dguns6PbKkEjiLYZBllPPoDfpVt3s02CELAlmKaEHRmRYpU3ZgeVOf5ofqH3yPiVUSMQGb1Fakr10UXE0fkwobNQ
+2026-08-12 13:09:30,206 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=fjS8eNo1jEEOgCAMBF9Cf2DSFtqCD_AbBujFi1z8fxSNe5vNZMiySuQihlHCqMfuHfxs6zU6bECICGQ5oUVF_ClRoTIH4XHn9UbsF75kZpVMTMAmrVfxxUVhoukNpvUbUw
+2026-08-12 13:09:30,503 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=fiPceNo1jEEOgCAMBF9if2DSFtqCD_AbBujFi1z8fxSMc5vNZMmSSuAshkGWXs7DG_hVt7s32IFQEMhSRAuKg2mRMuUBLG87pnlif_BdJlZJxARsUlsRX10Uhpo-qKgbWA
+2026-08-12 13:09:30,833 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=fpDMeNo1jEEOgCAMBF9if2DSFtqCD_AbBujFi1z8fxSMc5vNZMmSSuAshkGWXs7DG_hVt7s32IEIEchSRAuKg2mRMuUBLG87pnlif_BdJlZJxARsUlsRX10Uhpo-p00bVA
+2026-08-12 13:09:31,184 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=f9ZYeNotjMkNgDAMBCvBHSB5k9hOKIA2UI4PH_Khf0EC85vVaGFRxbskxl6Wns-jVWpX2e5eaSdAmGAxsHnlwbSAhDSg5W3HNE8Mf_BdRqcS4UDOpNQsbW2iNNT0AakqG1o
+2026-08-12 13:09:31,529 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=fyaoeNotjEEOgCAMBF9if2DSFtqCD_AbBujFi1z8fxR0brOZLFlSCZzFMMjSy3l4A7_qdvcGOxAjAlmKaEFxMC1SpjyA5W3HNE-M_uC7TKySiAnYpLYivrooDDV9AKfPG1Y
+2026-08-12 13:09:31,860 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=f9KteNotjEEOgCAMBF9if2DSFtqCD_AbBujFi1z8fxR0brOZLFlSCZzFMMjSy3l4A7_qdvcGOxALAlmKaEFxMC1SpjyA5W3HNE-M_uC7TKySiAnYpLYivrooDDV9AKmCG1s
+2026-08-12 13:09:32,226 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=fwyVeNotjEEOgCAMBF9if2DSFtqCD_AbBujFi1z8fxR0brOZLFlSCZzFMMjSy3l4A7_qdvcGO1BABLIU0YLiYFqkTHkAy9uOaZ4Y_8F3mVglEROwSW1FfHVRGGr6AKhRG1g
+2026-08-12 13:09:32,602 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=f3h1eNotjEEOgCAMBF9if2DSFtqCD_AbBujFi1z8fxR0brOZLFlSCZzFMMjSy3l4A7_qdvcGO1AQBLIU0YLiYFqkTHkAy9uOaZ4Y_8F3mVglEROwSW1FfHVRGGr6AKoEG10
+2026-08-12 13:09:33,010 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=fy-beNotjEEOgCAMBF9if2DSFtqCD_AbBujFi1z8fxR0brOZLFlSCZzFMMjSy3l4A7_qdvcGO1BEBLIU0YLiYFqkTHkAy9uOaZ4Y_8F3mVglEROwSW1FfHVRGGr6AKipG1k
+2026-08-12 13:09:36,355 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=fxkweNotjMkNgDAMBCvBHSDZSXyEAmgD5fjwIR_6Fzgwv1mNltSEY8isGHkZ5Tx6g37V7R4NdqDECKSWUKOgMy1RpuzA8rY-zROVP_guLQgbBYKgXFvhvnYWcFV5AKsEG2I
+2026-08-12 13:09:36,719 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=fwJeeNotjEEOgCAMBF9if2DSFtqCD_AbBujFi1z8fxR0brOZLFlSCZzFMMjSy3l4A7_qdvcGO5AgAlmKaEFxMC1SpjyA5W3HNE9M_-C7TKySiAnYpLYivrooDDV9AKmpG14
+2026-08-12 13:09:37,031 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=f0FgeNotjMkNgDAMBCvBHSDZSdZOKIA2UI4PH_Khf0EC85vVaMWiwrsEY4-l5_NoldpVtrtX2kkAJrEY2LzyYFqQJGlAy9uOaZ6Y_sF3GZ0iihNyhlIz2tqgNNT0AatcG2M
+2026-08-12 13:09:37,399 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=f0mreNotjEsOgCAMRE9Cb2DSFtqCB_Aahs_GjWy8fwRlVjOTl0cWVTwnMfTier7OVqHdZX96hQNIEYEsBjQ_Kq4VKFGaATfYeX0SswX8ysgqkZiATUrN0rYmCnOavqorG2A
+2026-08-12 13:09:37,868 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=fv4BeNotjMkNgDAMBCvBHSDZSXyEAmgD5fjwIR_6Fzgwv1mNltSEY8isGHkZ5Tx6g37V7R4NdiBhBFJLqFHQmZYoU3ZgeVuf5onqH3yXFoSNAkFQrq1wXzsLuKo8q94bZQ
+2026-08-12 13:09:38,208 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=gN8MeNotjMsNgCAQRCthOzDZBfaDBdiG4XPxIhf7j4DOYZI3eRlSEw4-sWJg1_N1tgrtLvvTKxxAijjKImoQnFkUKVGaATfcOa0TtV_4Ls0LG3kCr1xq5rY1Fpio8gKqrRti
+2026-08-12 13:09:38,515 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=gD_feNotjMsNgCAQRCthOzBhF_aDBdiG4XPxIhf7j4DOYZI3eRlUEw6UWH1g1_N1tgrtLvvTKxyAyn6URa9B_MyiiAnTDLjhzmmdqP3Cd2kkbEgIpFxq5rY1Fpio8gKsYBtn
+2026-08-12 13:09:38,755 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=foPKeNotjMkNgDAMBCvBHSDZTnyEAmgD5fjwIR_6FyQwv1mNlsxVAicxDLL0fB6tQrvKdvcKO5AjAplHtKA4mBYpURrA8rZjmifmf_BdOqs4MQGblJqlrU0Uhpo-qwUbYw
+2026-08-12 13:09:39,042 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=fknieNotjMkNgDAMBCvBHSDZTnyEAmgD5fjwIR_6FyQwv1mNlsxVAicxDLL0fB6tQrvKdvcKO5ALAplHtKA4mBYpURrA8rZjmifmf_BdOqs4MQGblJqlrU0Uhpo-rLgbaA
+2026-08-12 13:09:42,013 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=fkr_eNotjLkNgDAQBCvhOkC6s30fBdAG8pOQ4IT-BTZMNqvRkppwDM6KkZeez6NVaFfZ7l5hB3JEILWEGgUH0xI5-QCWtx3TPDH6g-_SgrBRIAjKpWZua2OBoSoPqmIbXg
+2026-08-12 13:09:42,348 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=f8SueNotjMkNgDAMBCvBHSDZTnyEAmgD5fjwIR_6FyQwv1mNlsxVAicxDLL0fB6tQrvKdvcKO1ASBDKPaEFxMC1SojSA5W3HNE-c_-C7dFZxYgI2KTVLW5soDDV9AKw_G2Q
+2026-08-12 13:09:42,726 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=fr8QeNo1jMkNgDAMBCuJO0CynfgIBdAGyvHhQz70LwiI_c1qNGSuEjmLYZQwyrH3Bv2s6zUabMCICGSe0KIi_pQoU56D8LjzeiP-61_SWcWJCdiktiJ96aIw0fQGp80bVw
+2026-08-12 13:09:43,069 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=fmyUeNotjMkNgDAMBCvBHSDZTnyEAmgD5fjwIR_6FyQwv1mNlsxVAicxDLL0fB6tQrvKdvcKOzAKAplHtKA4mBYpURrA8rZjmifOf_BdOqs4MQGblJqlrU0Uhpo-qYAbXA
+2026-08-12 13:09:43,418 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=f4ZYeNotjMkNgDAMBCvBHSDZTnyEAmgD5fjwIR_6FyQwv1mNlsxVAicxDLL0fB6tQrvKdvcKOzAhAplHtKA4mBYpURrA8rZjmice_uC7dFZxYgI2KTVLW5soDDV9AKhPG1k
+2026-08-12 13:09:43,784 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=f-FdeNotjMkNgDAMBCvBHSDZTnyEAmgD5fjwIR_6FyQwv1mNlsxVAicxDLL0fB6tQrvKdvcKOzAJAplHtKA4mBYpURrA8rZjmice_uC7dFZxYgI2KTVLW5soDDV9AKoCG14
+2026-08-12 13:09:44,167 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=f9gyeNoljMkNwCAMBCvBHUSyDbYhBaSNiOOTT_ikf4VjfrMaLVlU8ZzE0Ivr-blbhfaW8-sVLmBGBLIY0LziZFmgRGkCbrRzWicj28G-jKwSiQnYpNQs7WiiMNX0B6jRG1s
+2026-08-12 13:09:44,548 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=f2gTeNoljMkNwCAMBCvBHUSyDbYhBaSNiOOTT_ikf4VjfrMaLVlU8ZzE0Ivr-blbhfaW8-sVLmAWBLIY0LziZFmgRGkCbrRzWicj28G-jKwSiQnYpNQs7WiiMNX0B6qEG2A
+2026-08-12 13:09:44,867 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=f8WfeNoljMkNwCAMBCvBHUSyDbYhBaSNiOOTT_ikf4VjfrMaLVlU8ZzE0Ivr-blbhfaW8-sVLmCPCGQxoHnFybJAidIE3GjntE5GtoN9GVklEhOwSalZ2tFEYarpD6kpG1w
+2026-08-12 13:09:48,444 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=f9LueNotjMkNgDAMBCvBHSDZTnyEAmgD5fjwIR_6FyQwv1mNlsxVAicxDLL0fB6tQrvKdvcKO3AQBDKPaEFxMC1SojSA5W3HNE_c_-C7dFZxYgI2KTVLW5soDDV9AKuEG2U
+2026-08-12 13:09:48,766 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=fz4UeNotjMkNgDAMBCvBHSDZTnyEAmgD5fjwIR_6FyQwv1mNlsxVAicxDLL0fB6tQrvKdvcKO3BEBDKPaEFxMC1SojSA5W3HNE_c_-C7dFZxYgI2KTVLW5soDDV9AKopG2E
+2026-08-12 13:09:49,140 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=f_DveNotjMkNgDAMBCvBHSDZTnyEAmgD5fjwIR_6FyQwv1mNlsxVAicxDLL0fB6tQrvKdvcKO3AUBDKPaEFxMC1SojSA5W3HNE88_cF36azixARsUmqWtjZRGGr6AKwGG2c
+2026-08-12 13:09:49,518 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=f7S4eNotjMkNgDAMBCvBHSDZTnyEAmgD5fjwIR_6FyQwv1mNlsxVAicxDLL0fB6tQrvKdvcKO7AgAplHtKA4mBYpURrA8rZjmiee_uC7dFZxYgI2KTVLW5soDDV9AKqrG2M
+2026-08-12 13:09:49,849 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=f9eJeNotjLENgDAMBCfBGyDFTt52GIA1ECQNDWnYX5DAdfc6PZsromRYiJjafm61UL2O5W6FVhIgEJunYFFDZ1jizLlD09v2aZx4_oPv0kXhLExiOMqOOlcodTV9AKxeG2g
+2026-08-12 13:09:50,184 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=gFX9eNo1jMkNwCAMBCvBHUSyDbYhBaSNiOOTT_ikfwVy7Gt3NRqyqOI5iaEX1_OxtwrtLOvVK2zAighkMaD5UfFbgRKlGXCDndcjST_wKiOrRGICNik1S1uaKMxpegOptBtc
+2026-08-12 13:09:50,490 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=fyRkeNo1jEsOgCAMRE9Cb2DSFtqCB_Aahs_GjWy8fwSMb_cmM0MWVTwnMfTier7OVqHdZX96hQNYBYEsBjSvOFkWKFGagBvdGa2T9Be-yzjWkZiATUrN0rYmClNNX6tnG2E
+2026-08-12 13:09:50,793 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=f2JNeNo1jEsOgCAMBU9Cb2DSFtqCB_Aahs_GjWy8fwSMbzcvkyGLKp6TGHpxPV9nq9Dusj-9wgFsiEAWA5pXnFsUKFGaAzfcea1I-oUvGVklEtOoSKlZ2tZEYaLpC6oMG10
+2026-08-12 13:09:50,989 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=fks2eNo1jLsNgDAMBSfBGyDZSWzHDMAaKJ-GhjTsL3AQr7un05Fm4RiMFSMvo5xHb9Cvut2jwQ5BGYE0J9Qo6JuUyMh8sLyuXzNiv_AlcxDOFMgrtRXua2cBR5UHq78bYg
+2026-08-12 13:09:51,183 | INFO | core.harvest | OAI Harvest beendet: 2776 IDNs
+2026-08-12 13:09:51,185 | INFO | infrastructure.storage | Backup erstellt: C:\Users\sickerti\Projekte\InhaltVZ-Tool\data\DNB_OAI_20260812_130951.bak
+2026-08-12 13:09:51,274 | INFO | infrastructure.storage | 2776 IDNs gespeichert
+2026-08-12 13:10:20,969 | INFO | core.idn | IDN Vergleich: 0 neu, 2776 vorhanden
+2026-08-12 13:10:21,069 | INFO | infrastructure.storage | Backup erstellt: C:\Users\sickerti\Projekte\InhaltVZ-Tool\data\DNB_OAI_20260812_131021.bak
+2026-08-12 13:10:21,100 | INFO | infrastructure.storage | 0 IDNs gespeichert
+2026-08-12 13:11:02,594 | INFO | core.harvest | OAI Harvest gestartet 2026-07-18 - 2026-07-20
+2026-08-12 13:11:02,594 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&from=2026-07-18T00:00:00Z&until=2026-07-20T23:59:59Z&metadataPrefix=oai_dc&set=dnb:toc
+2026-08-12 13:11:05,531 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=fMzfeNotjMERgCAQAyvxOnDm7iAHWIBtOAo-_MjH_kdA89vMJhKiwTmGMctU92srmcp9LE_NtBKYJETvnEbuGYQkaYSmZvZqXBh-4SNtM9UIUuQkp-e5wEgIqi9QnBpJ
+2026-08-12 13:11:05,791 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=fo8QeNotjLsNgDAMRCfBGyD5EzsOA7AGgoSChjTsL5LAde_07ii6qQiqIdJU92srGcp9LE_NsAIhAkUPIuzYM0gTpRGYmtqr8WH6Cx9xmzG7AmtOdAacixoQKPMLaAMadQ
+2026-08-12 13:11:06,008 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=fkJzeNotjMERgCAQAyvxOnDm7iAHWIBtOAo-_MjH_kdA89vMJhKiwTmGMctU92srmcp9LE_NtJKASUL0zmnknkFIkkZoamqvxofhFz7SNlONIEVOcnqeC4yEoPoCabEaeg
+2026-08-12 13:11:06,358 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=fjtWeNotjLsNgDAMRCfBGyD5EzsOA7AGgoSChjTsL5LAde_07ii6qQiqIdJU92srGcp9LE_NsAIjAkUPIuzYM0gTpRGYmtqr8WH2Cx9xmzG7AmtOdAacixoQKPMLaIMadw
+2026-08-12 13:11:06,653 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=fo6geNotjLsNgDAMRCfBGyD5EzsOA7AGgoSChjTsL5LA697p7ii6qQiqIdJU92srGcp9LE_NsAIrAkUPIuzYGaaJ0gCmVu3R-DD7C59xmzG7tpOc6Aw4FzUgUOYXajEafA
+2026-08-12 13:11:06,898 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=foyIeNotjLsNgDAMRCfBGyD5EzsOA7AGgoSChjTsL5LAde_07ii6qQiqIdJU92srGcp9LE_NsIIgAkUPIuzYM0gTpRGYmtqr8WH2Cx9xmzG7AmtOdAacixoQKPMLaNoaeA
+2026-08-12 13:11:07,152 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=frWIeNotjLsNgDAMRCfBGyD5EzsOA7AGgoSChjTsL5LAde_07ii6qQiqIdJU92srGcp9LE_NsIIoAkUPIuzYM0gTpRGYmtqr8WHxFz7iNmN2Bdac6Aw4FzUgUOYXarEafg
+2026-08-12 13:11:07,400 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=fmy0eNotjLsNgDAMRCfBGyD5EzsOA7AGgoSChjTsL5LAde_07ii6qQiqIdJU92srGcp9LE_NsEJABIoeRNixZ5AmSiMwNbVX48PiL3zEbcbsCqw50RlwLmpAoMwvaVoaeg
+2026-08-12 13:11:07,718 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=flRteNotjLsNgDAMRCfBGyD5EzsOA7AGgoSChjTsL5LAde_07ii6qQiqIdJU92srGcp9LE_NsEJQBIoeRNixZ5AmSiMwNbVX48PiL3zEbcbsCqw50RlwLmpAoMwvawgafw
+2026-08-12 13:11:07,915 | INFO | infrastructure.http_client | GET https://services.dnb.de/oai/repository?verb=ListIdentifiers&resumptionToken=fhAReNotjLsNgDAMRCfBGyD5EzsOA7AGgoSChjTsL5LAde_07ii6qQiqIdJU92srGcp9LE_NsIIiAkUPIuzYM0gTpRGYmtqr8WHxFz7iNmN2Bdac6Aw4FzUgUOYXabEaew
+2026-08-12 13:11:08,022 | INFO | core.harvest | OAI Harvest beendet: 522 IDNs
+2026-08-12 13:11:08,034 | INFO | infrastructure.storage | Backup erstellt: C:\Users\sickerti\Projekte\InhaltVZ-Tool\data\DNB_OAI_20260812_131108.bak
+2026-08-12 13:11:08,058 | INFO | infrastructure.storage | 522 IDNs gespeichert
+2026-08-12 13:11:22,001 | INFO | core.idn | IDN Vergleich: 15 neu, 507 vorhanden
+2026-08-12 13:11:22,088 | INFO | infrastructure.storage | Backup erstellt: C:\Users\sickerti\Projekte\InhaltVZ-Tool\data\DNB_OAI_20260812_131122.bak
+2026-08-12 13:11:22,114 | INFO | infrastructure.storage | 15 IDNs gespeichert
+2026-08-12 13:11:32,517 | INFO | infrastructure.storage | 15 neue IDNs geschrieben
+2026-08-12 13:12:43,237 | INFO | core.keyword_service | Keyword Workflow gestartet
+2026-08-12 13:12:43,297 | INFO | core.keyword_loader | 484 Schlagwörter geladen
+2026-08-12 13:12:43,298 | INFO | infrastructure.http_client | GET https://d-nb.info/1043993258/04/text
+2026-08-12 13:12:43,645 | ERROR | infrastructure.http_client | HTTP Fehler bei https://d-nb.info/1043993258/04/text
+Traceback (most recent call last):
+  File "C:\Users\sickerti\Projekte\InhaltVZ-Tool\infrastructure\http_client.py", line 77, in get
+    response.raise_for_status()
+  File "C:\Program Files\Anaconda3 2023.09-0 64-bit\Lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://d-nb.info/1043993258/04/text
+2026-08-12 13:12:43,647 | ERROR | core.keyword | Keywordanalyse fehlgeschlagen für 1043993258
+Traceback (most recent call last):
+  File "C:\Users\sickerti\Projekte\InhaltVZ-Tool\core\keyword.py", line 136, in analyse_document
+    response = self.http.get(
+               ^^^^^^^^^^^^^^
+  File "C:\Users\sickerti\Projekte\InhaltVZ-Tool\infrastructure\http_client.py", line 77, in get
+    response.raise_for_status()
+  File "C:\Program Files\Anaconda3 2023.09-0 64-bit\Lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://d-nb.info/1043993258/04/text
+2026-08-12 13:12:43,648 | INFO | infrastructure.http_client | GET https://d-nb.info/1056858184/04/text
+2026-08-12 13:12:43,709 | ERROR | infrastructure.http_client | HTTP Fehler bei https://d-nb.info/1056858184/04/text
+Traceback (most recent call last):
+  File "C:\Users\sickerti\Projekte\InhaltVZ-Tool\infrastructure\http_client.py", line 77, in get
+    response.raise_for_status()
+  File "C:\Program Files\Anaconda3 2023.09-0 64-bit\Lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://d-nb.info/1056858184/04/text
+2026-08-12 13:12:43,709 | ERROR | core.keyword | Keywordanalyse fehlgeschlagen für 1056858184
+Traceback (most recent call last):
+  File "C:\Users\sickerti\Projekte\InhaltVZ-Tool\core\keyword.py", line 136, in analyse_document
+    response = self.http.get(
+               ^^^^^^^^^^^^^^
+  File "C:\Users\sickerti\Projekte\InhaltVZ-Tool\infrastructure\http_client.py", line 77, in get
+    response.raise_for_status()
+  File "C:\Program Files\Anaconda3 2023.09-0 64-bit\Lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://d-nb.info/1056858184/04/text
+2026-08-12 13:12:43,709 | INFO | infrastructure.http_client | GET https://d-nb.info/1185223975/04/text
+2026-08-12 13:12:44,154 | INFO | infrastructure.http_client | GET https://d-nb.info/1195622694/04/text
+2026-08-12 13:12:44,884 | INFO | infrastructure.http_client | GET https://d-nb.info/1380809746/04/text
+2026-08-12 13:12:45,296 | INFO | infrastructure.http_client | GET https://d-nb.info/1387759582/04/text
+2026-08-12 13:12:45,678 | INFO | infrastructure.http_client | GET https://d-nb.info/1389521141/04/text
+2026-08-12 13:12:46,033 | INFO | infrastructure.http_client | GET https://d-nb.info/1394390033/04/text
+2026-08-12 13:12:46,241 | INFO | infrastructure.http_client | GET https://d-nb.info/139710449X/04/text
+2026-08-12 13:12:46,493 | INFO | infrastructure.http_client | GET https://d-nb.info/1400484057/04/text
+2026-08-12 13:12:46,699 | INFO | infrastructure.http_client | GET https://d-nb.info/1400553415/04/text
+2026-08-12 13:12:46,895 | INFO | infrastructure.http_client | GET https://d-nb.info/1401734650/04/text
+2026-08-12 13:12:47,380 | INFO | infrastructure.http_client | GET https://d-nb.info/1403178364/04/text
+2026-08-12 13:12:47,687 | INFO | infrastructure.http_client | GET https://d-nb.info/1407745875/04/text
+2026-08-12 13:12:47,943 | INFO | infrastructure.http_client | GET https://d-nb.info/1407772376/04/text
+2026-08-12 13:12:48,140 | INFO | core.keyword | Keywordanalyse beendet: 2 Treffer
+2026-08-12 13:12:48,142 | INFO | infrastructure.storage | Backup erstellt: C:\Users\sickerti\Projekte\InhaltVZ-Tool\data\ergebnis_20260812_131248.bak
+2026-08-12 13:12:48,162 | INFO | infrastructure.storage | Excel gespeichert: C:\Users\sickerti\Projekte\InhaltVZ-Tool\data\ergebnis.xlsx
+2026-08-12 13:12:48,163 | INFO | core.keyword_service | Keyword Workflow beendet
+2026-08-12 13:17:01,860 | INFO | core.sru_service | SRU Workflow gestartet
+2026-08-12 13:17:01,867 | INFO | infrastructure.http_client | GET https://services.dnb.de/sru/dnb?version=1.1&operation=searchRetrieve&query=idn=1389521141&recordSchema=MARC21-xml
+2026-08-12 13:17:02,293 | INFO | infrastructure.http_client | GET https://services.dnb.de/sru/dnb?version=1.1&operation=searchRetrieve&query=idn=1403178364&recordSchema=MARC21-xml
+2026-08-12 13:17:02,412 | INFO | infrastructure.storage | Backup erstellt: C:\Users\sickerti\Projekte\InhaltVZ-Tool\data\ergebnis_20260812_131702.bak
+2026-08-12 13:17:02,432 | INFO | infrastructure.storage | Excel gespeichert: C:\Users\sickerti\Projekte\InhaltVZ-Tool\data\ergebnis.xlsx
+2026-08-12 13:17:02,432 | INFO | core.sru_service | SRU Workflow beendet
+2026-08-12 13:18:41,554 | INFO | core.sru_service | SRU Workflow gestartet
+2026-08-12 13:18:41,562 | INFO | infrastructure.http_client | GET https://services.dnb.de/sru/dnb?version=1.1&operation=searchRetrieve&query=idn=1389521141&recordSchema=MARC21-xml
+2026-08-12 13:18:42,165 | INFO | infrastructure.http_client | GET https://services.dnb.de/sru/dnb?version=1.1&operation=searchRetrieve&query=idn=1403178364&recordSchema=MARC21-xml
+2026-08-12 13:18:42,490 | INFO | infrastructure.storage | Backup erstellt: C:\Users\sickerti\Projekte\InhaltVZ-Tool\data\ergebnis_20260812_131842.bak
+2026-08-12 13:18:42,499 | INFO | infrastructure.storage | Excel gespeichert: C:\Users\sickerti\Projekte\InhaltVZ-Tool\data\ergebnis.xlsx
+2026-08-12 13:18:42,499 | INFO | core.sru_service | SRU Workflow beendet
+2026-08-12 13:18:44,791 | INFO | core.keyword_service | Keyword Workflow gestartet
+2026-08-12 13:18:44,865 | INFO | core.keyword_loader | 484 Schlagwörter geladen
+2026-08-12 13:18:44,866 | INFO | infrastructure.http_client | GET https://d-nb.info/1043993258/04/text
+2026-08-12 13:18:45,230 | ERROR | infrastructure.http_client | HTTP Fehler bei https://d-nb.info/1043993258/04/text
+Traceback (most recent call last):
+  File "C:\Users\sickerti\Projekte\InhaltVZ-Tool\infrastructure\http_client.py", line 77, in get
+    response.raise_for_status()
+  File "C:\Program Files\Anaconda3 2023.09-0 64-bit\Lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://d-nb.info/1043993258/04/text
+2026-08-12 13:18:45,231 | ERROR | core.keyword | Keywordanalyse fehlgeschlagen für 1043993258
+Traceback (most recent call last):
+  File "C:\Users\sickerti\Projekte\InhaltVZ-Tool\core\keyword.py", line 136, in analyse_document
+    response = self.http.get(
+               ^^^^^^^^^^^^^^
+  File "C:\Users\sickerti\Projekte\InhaltVZ-Tool\infrastructure\http_client.py", line 77, in get
+    response.raise_for_status()
+  File "C:\Program Files\Anaconda3 2023.09-0 64-bit\Lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://d-nb.info/1043993258/04/text
+2026-08-12 13:18:45,232 | INFO | infrastructure.http_client | GET https://d-nb.info/1056858184/04/text
+2026-08-12 13:18:45,297 | ERROR | infrastructure.http_client | HTTP Fehler bei https://d-nb.info/1056858184/04/text
+Traceback (most recent call last):
+  File "C:\Users\sickerti\Projekte\InhaltVZ-Tool\infrastructure\http_client.py", line 77, in get
+    response.raise_for_status()
+  File "C:\Program Files\Anaconda3 2023.09-0 64-bit\Lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://d-nb.info/1056858184/04/text
+2026-08-12 13:18:45,298 | ERROR | core.keyword | Keywordanalyse fehlgeschlagen für 1056858184
+Traceback (most recent call last):
+  File "C:\Users\sickerti\Projekte\InhaltVZ-Tool\core\keyword.py", line 136, in analyse_document
+    response = self.http.get(
+               ^^^^^^^^^^^^^^
+  File "C:\Users\sickerti\Projekte\InhaltVZ-Tool\infrastructure\http_client.py", line 77, in get
+    response.raise_for_status()
+  File "C:\Program Files\Anaconda3 2023.09-0 64-bit\Lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://d-nb.info/1056858184/04/text
+2026-08-12 13:18:45,298 | INFO | infrastructure.http_client | GET https://d-nb.info/1185223975/04/text
+2026-08-12 13:18:45,431 | INFO | infrastructure.http_client | GET https://d-nb.info/1195622694/04/text
+2026-08-12 13:18:45,552 | INFO | infrastructure.http_client | GET https://d-nb.info/1380809746/04/text
+2026-08-12 13:18:45,729 | INFO | infrastructure.http_client | GET https://d-nb.info/1387759582/04/text
+2026-08-12 13:18:46,020 | WARNING | core.keyword | Keywordanalyse abgebrochen
+2026-08-12 13:18:46,020 | INFO | core.keyword | Keywordanalyse beendet: 0 Treffer
+2026-08-12 13:18:46,030 | INFO | infrastructure.storage | Backup erstellt: C:\Users\sickerti\Projekte\InhaltVZ-Tool\data\ergebnis_20260812_131846.bak
+2026-08-12 13:18:46,038 | INFO | infrastructure.storage | Excel gespeichert: C:\Users\sickerti\Projekte\InhaltVZ-Tool\data\ergebnis.xlsx
+2026-08-12 13:18:46,038 | INFO | core.keyword_service | Keyword Workflow beendet
