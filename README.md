@@ -160,11 +160,9 @@ Dateien / Netzwerk
 ---
 
 
-5. Projektstand jetzt
-
 Aktuelle Struktur:
 
-DNB_Tool/
+InhaltsVZ-Tool/
 
 ├── main.py
 ├── config.ini
@@ -199,4 +197,4 @@ DNB_Tool/
 │   └── main_window.py
 
 
-Hinweis: Das Tool wird ohne Gewähr zur Verfügung gestellt. Die Nutzung erfolgt auf eigene Verantwortung. Bitte prüfen Sie die erzeugten Ergebnisse vor einer weiteren Verwendung.
+# Hinweis: Das Tool wird ohne Gewähr zur Verfügung gestellt. Die Nutzung erfolgt auf eigene Verantwortung. Bitte prüfen Sie die erzeugten Ergebnisse vor einer weiteren Verwendung.
