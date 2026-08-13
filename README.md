@@ -15,7 +15,7 @@ Funktionen:
 
 - OAI-PMH Harvest
 - IDN Verwaltung
-- Schlagwortanalyse
+- Stichwortanalyse
 - SRU/MARC21 Aktualisierung
 - Excel Export
 
@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 │ ├── idn.txt
 
-│ └── schlagworte.xlsx
+│ └── stichwort.xlsx
 
 ├── logs/
 
@@ -92,7 +92,7 @@ Abfrage mit idn.txt um schon einmal bearbeitete Datensätze rauszufiltern.
 ## 2. Keyword Analyse
 
 Die Datei:
-data/schlagworte.xlsx
+data/stichwort.xlsx
 wird geladen.
 
 Inhaltsverzeichnise der IDN aus DNB_OAI.xlsx werden geöffnet und mit den Stichwörtern abgeglichen.
@@ -171,7 +171,7 @@ InhaltsVZ-Tool/
 
 ├── data/
 │   ├── idn.txt
-│   └── schlagworte.xlsx
+│   └── stichwort.xlsx
 
 ├── logs/
 

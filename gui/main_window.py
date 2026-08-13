@@ -219,7 +219,7 @@ class MainWindow:
 
 
         keyword_text = (
-                "1. Mindestgewichtung festlegen (Standard: 3)\n"
+                "1. Mindestgesamtgewichtung festlegen (Standard: 3)\n"
                 "2. „Analyse starten“ anklicken\n"
                 " - Die Inhaltsverzeichnisse werden nach den definierten Stichwörtern durchsucht.\n" 
                 "   Treffer werden auch innerhalb von Wortbestandteilen erkannt.\n" 

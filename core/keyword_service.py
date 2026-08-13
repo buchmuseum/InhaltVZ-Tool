@@ -3,7 +3,7 @@ Zusammenführung der Keyword-Komponenten.
 
 Steuert:
 - Laden der IDNs
-- Laden der Schlagwörter
+- Laden der Stichwörter
 - Analyse
 - Ergebnisaufbereitung
 """
@@ -94,7 +94,7 @@ class KeywordService:
 
 
         # -----------------------------
-        # Schlagwörter laden
+        # Stichwörter laden
         # -----------------------------
 
 
@@ -134,7 +134,7 @@ class KeywordService:
                 "IDN":
                     result.idn,
 
-                "Schlagwörter":
+                "Stichwörter":
                     "; ".join(
                         result.keywords
                     ),

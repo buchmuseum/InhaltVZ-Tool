@@ -1,8 +1,8 @@
 """
-Lädt und validiert die Schlagwortdefinitionen.
+Lädt und validiert die Stichwortdefinitionen.
 
 Quelle:
-data/schlagworte.xlsx
+data/stichworte.xlsx
 
 Erwartete Spalten:
 - Begriff
@@ -28,7 +28,7 @@ logger = logging.getLogger(__name__)
 
 class KeywordLoadError(Exception):
     """
-    Fehler beim Laden der Schlagwörter.
+    Fehler beim Laden der Stichwörter.
     """
     pass
 
@@ -54,7 +54,7 @@ class KeywordLoader:
         file_path: Path
     ) -> dict[str, int]:
         """
-        Liest Schlagwörter und Gewichtungen.
+        Liest Stichwörter und Gewichtungen.
 
         Rückgabe:
 
@@ -85,7 +85,7 @@ class KeywordLoader:
         except Exception as exc:
 
             logger.exception(
-                "Schlagwortdatei konnte nicht gelesen werden"
+                "Stichwortdatei konnte nicht gelesen werden"
             )
 
             raise KeywordLoadError(
@@ -158,7 +158,7 @@ class KeywordLoader:
 
 
         logger.info(
-            "%s Schlagwörter geladen",
+            "%s Stichwörter geladen",
             len(result)
         )
 

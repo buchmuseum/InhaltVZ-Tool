@@ -2,7 +2,7 @@
 Keyword-Analyse Modul
 
 Verantwortlich:
-- Laden von Schlagwortdefinitionen
+- Laden von Stichwortdefinitionen
 - Analyse von Dokumenttexten
 - Berechnung von Gewichtungen
 
@@ -51,7 +51,7 @@ class KeywordResult:
 
 class KeywordEngine:
     """
-    Führt die Schlagwortanalyse durch.
+    Führt die Stichwortanalyse durch.
     """
 
 
@@ -75,7 +75,7 @@ class KeywordEngine:
         keywords: dict[str, int]
     ) -> tuple[list[str], int]:
         """
-        Durchsucht Text nach Schlagwörtern.
+        Durchsucht Text nach Stichwörtern.
 
         Treffer auch innerhalb von Wortbestandteilen.
         Beispiel:

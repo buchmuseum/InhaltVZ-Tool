@@ -48,7 +48,7 @@ IDN_FILE = (
 
 
 KEYWORD_FILE = (
-    DATA_DIR / "schlagworte.xlsx"
+    DATA_DIR / "stichwort.xlsx"
 )
 
 HARVEST_OUTPUT = (
