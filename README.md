@@ -67,7 +67,7 @@ Beispiel:
 
 idn.txt.gz bitte entpacken. Diese enthält den Stand 14.Juli 2026
 
-## schlagworte.xlsx
+## stichwort.xlsx
 
 Benötigte Spalten:
 
@@ -75,6 +75,7 @@ Benötigte Spalten:
 |-|-|
 | künstliche intelligenz | 5 |
 | datenbank | 2 |
+| Biologie | -2 |
 
 
 ---
